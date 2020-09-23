@@ -1,35 +1,47 @@
 body {
-    background-color: midnightblue;
+    background-color: #7c77b9;
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
+    padding: 12rem;
 }
 
 main {
     width: 400px;
-    border-radius: 5px;
+    min-width: 400px;
+    border-radius: 13px;
     text-align: center;
     align-content: center;
+    background: #33032f
+    
 }
 
 .top {
-    height: 120px;
-    background: red;
+    height: 130px;
     text-align: center;
-    font-size: 2rem;
+    font-size: 25px;
+    justify-content: center;
+    align-items: center;
+    color: #ceeaf7;
+    letter-spacing: 3px;
+    font-family: 'Red Rose', fantasy;
 }
 
 .middle {
-    height: 110px;
+    height: 120px;
     background: white;
+    justify-content: center;
+    align-items: center;
+    font-size: 87px;
+    font-family: 'Liu Jian Mao Cao', cursive;
 }
 
 .bottom {
     height: 40px;
-    background: red;
 }
 
 .hello {
-    font-size: 3.5rem;
+    font-size: 4.4rem;
+    letter-spacing: 6px;
 }
+
