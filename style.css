@@ -37,7 +37,17 @@ main {
 }
 
 .bottom {
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttons {
     height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .hello {
